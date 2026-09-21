@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" width="700" height="340" font-family="ui-sans-serif,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="14" y="24" font-size="14" font-weight="600" fill="#8b949e">Which anomaly score localizes lesions best</text>
+<text x="14" y="42" font-size="11" fill="#8b949e">AUROC against ground-truth segmentation. Axis starts at 0.70.</text>
+<line x1="190.0" y1="58" x2="190.0" y2="298" stroke="#8b949e" stroke-width="1" opacity="0.28"/>
+<text x="190.0" y="316" font-size="10" fill="#8b949e" text-anchor="middle" font-family="ui-monospace,monospace">0.70</text>
+<line x1="346.7" y1="58" x2="346.7" y2="298" stroke="#8b949e" stroke-width="1" opacity="0.28"/>
+<text x="346.7" y="316" font-size="10" fill="#8b949e" text-anchor="middle" font-family="ui-monospace,monospace">0.80</text>
+<line x1="503.3" y1="58" x2="503.3" y2="298" stroke="#8b949e" stroke-width="1" opacity="0.28"/>
+<text x="503.3" y="316" font-size="10" fill="#8b949e" text-anchor="middle" font-family="ui-monospace,monospace">0.90</text>
+<line x1="660.0" y1="58" x2="660.0" y2="298" stroke="#8b949e" stroke-width="1" opacity="0.28"/>
+<text x="660.0" y="316" font-size="10" fill="#8b949e" text-anchor="middle" font-family="ui-monospace,monospace">1.00</text>
+<text x="182" y="73" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace,monospace">Raw MSE / L1</text>
+<rect x="190" y="61" width="324.3" height="16" fill="#7b3294" opacity="0.4"/>
+<text x="521.3" y="74" font-size="12" fill="#8b949e" font-weight="700" font-family="ui-monospace,monospace">0.907</text>
+<text x="182" y="103" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace,monospace">Mean mu</text>
+<rect x="190" y="91" width="366.6" height="16" fill="#7b3294" opacity="0.52"/>
+<text x="563.6" y="104" font-size="12" fill="#8b949e" font-weight="700" font-family="ui-monospace,monospace">0.934</text>
+<text x="182" y="133" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace,monospace">mu + 0.5s</text>
+<rect x="190" y="121" width="369.7" height="16" fill="#7b3294" opacity="0.58"/>
+<text x="566.7" y="134" font-size="12" fill="#8b949e" font-weight="700" font-family="ui-monospace,monospace">0.936</text>
+<text x="182" y="163" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace,monospace">mu + s</text>
+<rect x="190" y="151" width="372.9" height="16" fill="#7b3294" opacity="0.64"/>
+<text x="569.9" y="164" font-size="12" fill="#8b949e" font-weight="700" font-family="ui-monospace,monospace">0.938</text>
+<text x="182" y="193" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace,monospace">mu + 2s</text>
+<rect x="190" y="181" width="374.4" height="16" fill="#7b3294" opacity="0.7"/>
+<text x="571.4" y="194" font-size="12" fill="#8b949e" font-weight="700" font-family="ui-monospace,monospace">0.939</text>
+<text x="182" y="223" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace,monospace">mu x s</text>
+<rect x="190" y="211" width="377.6" height="16" fill="#b5308a" opacity="1.0"/>
+<text x="574.6" y="224" font-size="12" fill="#8b949e" font-weight="700" font-family="ui-monospace,monospace">0.941</text>
+<text x="182" y="253" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace,monospace">1 - SSIM</text>
+<rect x="190" y="241" width="169.2" height="16" fill="#d1603d" opacity="0.55"/>
+<text x="366.2" y="254" font-size="12" fill="#8b949e" font-weight="600" font-family="ui-monospace,monospace">0.808</text>
+<text x="182" y="283" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace,monospace">Z-score mu/s</text>
+<rect x="190" y="271" width="17.2" height="16" fill="#d1603d" opacity="0.4"/>
+<text x="214.2" y="284" font-size="12" fill="#8b949e" font-weight="600" font-family="ui-monospace,monospace">0.711</text>
+<text x="14" y="332" font-size="10" fill="#8b949e">Every score that keeps sigma beats the one that drops it. Dividing by sigma instead of multiplying collapses the signal.</text>
+</svg>
